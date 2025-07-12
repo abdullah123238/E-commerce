@@ -3,11 +3,6 @@ import React from "react";
 const ProductCard = ({ product }) => {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow hover:shadow-lg transition overflow-hidden">
-      <img
-        src={product.image || "/default-product.jpg"}
-        alt={product.name}
-        className="w-full h-48 object-cover"
-      />
 
       <div className="p-4">
         <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
